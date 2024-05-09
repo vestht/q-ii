@@ -1,6 +1,7 @@
 # Resource: instance_security_group
 resource "aws_security_group" "instance_security_group" {
 	vpc_id = aws_vpc.vpc.id
+	name = "VESTHT-INSTANCE-1A-SG"
 
 	ingress {
 		to_port = 22
