@@ -1,0 +1,5 @@
+# Resource
+resource "aws_key_pair" "instance_key_pair" {
+    key_name = "SHYAMIN-KP"
+    public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCuE02hBKChdNSIojkHN0auQ0/PL7j6QUi5c9FrqlhX6PjtP91bfeskh9gE3WkPIiaUB48DMZKFsD7KOnxupWFXs2Nw0uk4FG2eb9WDBRIWKf6OEk7HJrUOiApDxZtB2Vg9m0ROQQKvyznkkgHM2kdmqc179bnqUXJdu5BXDzp1l226QVU4zcLc6Wq+CKqJp5V1AlVhBshjwYEdvnVZoh/6ZrCM8jmLME/JLASebpj5AXd8nHoyLRFLa2CTATM3Jb0DS+2OX+6MOWyGO+ssiJOx8JqBADvscrGCEgP9mtLut2zSkqITDt79E9Gh+ul0JHKn0baHFIOWDOZ0Y68ksfwP"
+}
