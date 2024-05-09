@@ -8,6 +8,10 @@ resource "aws_instance" "instance" {
       device_index = 0
     }
 
+    metadata_options {
+      http_tokens = "required"
+    }
+
     tags = {
       Name = "VESTHT-INSTANCE-1A"
     }
